@@ -2,6 +2,7 @@ package com.wsx.park.system.domain.parking_system;
 
 import java.util.Date;
 
+
 public class Admin {
     private Integer id;
 

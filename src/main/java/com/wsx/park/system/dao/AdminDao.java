@@ -8,7 +8,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class AdminDao {
 
-    @Autowired AdminMapper adminMapper;
+    @Autowired
+    AdminMapper adminMapper;
+
     public Admin getAdminPasswordbyId(Integer id) {
         return adminMapper.selectByPrimaryKey(id);
     }
